@@ -36,7 +36,7 @@ See also
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
 - 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <project_name>` or `$ project_name` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <plant_genome>` or `$ plant_genome` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
@@ -45,24 +45,24 @@ See also
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
 ---
-# project_name Flask Application
+# plant_genome Flask Application
 
-project_description
+Awesome plant_genome created by hellojinjie
 
 ## Installation
 
 From source:
 
 ```bash
-git clone https://github.com/author_name/project_urlname project_name
-cd project_name
+git clone https://github.com/hellojinjie/plant_genome plant_genome
+cd plant_genome
 make install
 ```
 
 From pypi:
 
 ```bash
-pip install project_name
+pip install plant_genome
 ```
 
 ## Executing
@@ -72,13 +72,13 @@ This application has a CLI interface that extends the Flask CLI.
 Just run:
 
 ```bash
-$ project_name
+$ plant_genome
 ```
 
 or
 
 ```bash
-$ python -m project_name
+$ python -m plant_genome
 ```
 
 To see the help message and usage instructions.
@@ -86,10 +86,10 @@ To see the help message and usage instructions.
 ## First run
 
 ```bash
-project_name create-db   # run once
-project_name populate-db  # run once (optional)
-project_name add-user -u admin -p 1234  # ads a user
-project_name run
+plant_genome create-db   # run once
+plant_genome populate-db  # run once (optional)
+plant_genome add-user -u admin -p 1234  # ads a user
+plant_genome run
 ```
 
 Go to:
